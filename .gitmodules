@@ -1,0 +1,3 @@
+[submodule "niftyreg"]
+	path = niftyreg
+	url = https://git.code.sf.net/p/niftyreg/git
