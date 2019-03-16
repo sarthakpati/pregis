@@ -28,6 +28,9 @@ cd bin
 cmake -DCMAKE_INSTALL_PREFIX=./install -DCMAKE_BUILD_TYPE=Release ..
 make install/strip -j2 # assumes you have 2 CPU threads for compilation
 ```
+
+Edit the `config.json` file with the full path to `{pregis_source}/niftyreg/bin/install`
+
 # Sample Data
 
 https://github.com/uncbiag/pregis/releases/download/1.0.0/data.zip 
