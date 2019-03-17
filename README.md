@@ -49,6 +49,7 @@ The CPU/GPU toggle is handled by the command line parameter **-p**.
 # To Do
 
 * Change temporary writing directory from `${pregis_source}/tmp_res/` to a temporary directory in the user's home directory.
+* NiftyReg installation location should not be getting picked up from a config file; instead, it should be getting picked up directly from the environment variables. This ensures a seamless interface for the user.
 * C++ Conversion
   * [Xu] Provide pseudo-code to Sarthak
   * [Sarthak] After Xu provides pseudo-code, check which decompositions are available on the GPU via OpenCV
