@@ -50,5 +50,5 @@ The CPU/GPU toggle is handled by the command line parameter **-p**.
 
 * Change temporary writing directory from `${pregis_source}/tmp_res/` to a temporary directory in the user's home directory.
 * C++ Conversion
-..* [Xu] Provide pseudo-code to Sarthak
-..* [Sarthak] After Xu provides pseudo-code, check which decompositions are available on the GPU via OpenCV
+  * [Xu] Provide pseudo-code to Sarthak
+  * [Sarthak] After Xu provides pseudo-code, check which decompositions are available on the GPU via OpenCV
