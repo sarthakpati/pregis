@@ -39,3 +39,9 @@ wget https://github.com/uncbiag/pregis/releases/download/1.0.0/data.zip
 unzip data.zip
 rm -rf data.zip
 ```
+
+# Usage
+
+The main entry point of the code is `${pregis_source}/main_code/pregis.py`.
+
+The CPU/GPU toggle is handled by the command line parameter **-p**.
