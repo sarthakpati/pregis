@@ -45,3 +45,10 @@ rm -rf data.zip
 The main entry point of the code is `${pregis_source}/main_code/pregis.py`.
 
 The CPU/GPU toggle is handled by the command line parameter **-p**.
+
+# To Do
+
+* Change temporary writing directory from `${pregis_source}/tmp_res/` to a temporary directory in the user's home directory.
+* C++ Conversion
+..* [Xu] Provide pseudo-code to Sarthak
+..* [Sarthak] After Xu provides pseudo-code, check which decompositions are available on the GPU via OpenCV
