@@ -14,7 +14,7 @@ The instructions have been given for Anaconda; please alter as needed.
 conda create -n pregis python=3.6.3 anaconda
 conda activate pregis
 # install pycuda for your platform as give in https://wiki.tiker.net/PyCuda/Installation
-pip install scikit-cuda
+pip install scikit-cuda simpleitk
 ```
 
 ## Installing NiftyReg
