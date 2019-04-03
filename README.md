@@ -46,6 +46,8 @@ The main entry point of the code is `${pregis_source}/main_code/pregis.py`.
 
 The CPU/GPU toggle is handled by the command line parameter **-p**.
 
+User needs to use the -a for the post-resection image
+
 # To Do
 
 * Change temporary writing directory from `${pregis_source}/tmp_res/` to a temporary directory in the user's home directory.
